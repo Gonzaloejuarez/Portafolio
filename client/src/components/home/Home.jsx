@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Gonzalo from './Gonzalo/Gonzalo';
 
 export const Home = () => {
 
@@ -10,6 +10,7 @@ export const Home = () => {
 				<div> 
 					<h1>Gonzalo Juarez Developer</h1>
 				</div>
+				<Gonzalo />	
 			</section>
 		</div>
 	)

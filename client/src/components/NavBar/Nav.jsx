@@ -2,6 +2,13 @@ import React from 'react'
 
 export const Nav = () => {
   return (
-    <div>Nav</div>
+    <div>
+        <div>
+            <nav>
+                <li>Inicio</li>
+                
+            </nav>
+        </div>
+    </div>
   )
 }
