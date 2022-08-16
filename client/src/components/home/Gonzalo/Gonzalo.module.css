@@ -1,0 +1,13 @@
+.nuevo{
+}
+
+.divGonzalo{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gonzaloImagen{
+    width: 200px;
+    height: 250px;
+}

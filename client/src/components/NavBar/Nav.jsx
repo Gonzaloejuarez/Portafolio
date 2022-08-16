@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import {FaTimes, FaBars} from 'react-icons/fa'
+import { Link } from 'react-router-dom';
 import styles from './Nav.module.css';
 import "./Nav.css"
 import { DataNav } from './Data'
@@ -22,6 +23,7 @@ export const Nav = () => {
               </li>
           ))
         }
+        <li></li>
         </ul>
       <div className={styles.menu} onClick={openNav}>
         {open ? (
