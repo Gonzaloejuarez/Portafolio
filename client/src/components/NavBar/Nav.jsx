@@ -16,7 +16,7 @@ export const Nav = () => {
       {
         DataNav.map(({to, name}) => (
               <li>
-                <a href={to}>
+                <a href={to} onClick={openNav}>
                 <p>{name}</p>
                 </a>
               </li>

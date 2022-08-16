@@ -3,6 +3,7 @@
     padding: 1rem;
     align-items: center;
     justify-content: space-between;
+    background-color: #302E2E;
 }
 .lista{
     display: flex;

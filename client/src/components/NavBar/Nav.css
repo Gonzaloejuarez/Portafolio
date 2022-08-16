@@ -33,8 +33,9 @@
         position: absolute;
         background-color: rgba(0, 0, 0, 0.9);
         top: 0;
-        left: -100%;
+        left: 100%;
         z-index: -3;
+        transition-duration: 0.5s;
     }
 
     .active{
