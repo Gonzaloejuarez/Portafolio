@@ -1,18 +1,23 @@
 export const DataNav = [
     {
-      name : "Inicio"  
+      name : "Inicio",
+      to: "#inicio"  
     },
     {
-      name : "Sobre Mi"  
+      name : "Sobre Mi",
+      to: "#sobreMi"  
     },
     {
-      name : "Proyectos"
+      name : "Proyectos",
+      to: "#proyectos"
     },
     {
-      name : "Estudios"
+      name : "Estudios",
+      to: "#estudios"
     },
     {
-      name : "Contactame"  
+      name : "Contactame",
+      to: "#contactame"  
     }
 ] 
 
