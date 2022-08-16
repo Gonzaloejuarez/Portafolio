@@ -3,9 +3,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    position: fixed;
-    width: 100%;
-    height: 90px;
     z-index: 10;
     background-color: #302E2E;
 }
@@ -24,15 +21,21 @@
     font-size: 1.2rem;
     font-weight: 500;
 }
+.listas a > p:hover{
+color: #F9E63D;
+}
+
+
 .menu{
     display: none;
 }
 
 @media(max-width : 1040px) {
     .lista {
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+        align-items: flex-start;
         width: 100%;
         height: 100vh;
         position: absolute;

@@ -12,60 +12,29 @@ export const Nav = () => {
 
   return (
     <div className={styles.divNav}>
+      <div className='data'>
       <h1>Gonzalo Juarez</h1>
       <ul className={open ? "lista active" : "lista"}>
-      {
+        {
         DataNav.map(({to, name}) => (
-              <li>
-                <a href={to} onClick={openNav}>
-                <p>{name}</p>
+              <li className={styles.listas}>
+                <a className={styles.active} href={to} onClick={openNav} >
+                <p className={styles.parrafo}>{name}</p>
                 </a>
               </li>
           ))
         }
-        <li></li>
         </ul>
+      </div>
       <div className={styles.menu} onClick={openNav}>
         {open ? (
-          <FaTimes size={20} style={{color: "#fff"}}/>
+          <FaTimes size={20} className='button'/>
           ):(
-            <FaBars size={20} style={{color: "#fff"}} />
+            <FaBars size={20} className='button'/>
             )
         }
       </div>
     </div>
   )
 }
-
-
 export default Nav
-
-
-/* <div className={styles.componenteNav}>
-      <a>
-      <FaIcons.FaBars onClick={openNav}/>
-      </a>
-      <nav className={open ? styles.sidebarOpen : styles.sidebar}>
-      <section className={styles.sectionNavBar}>
-          <a>
-            <AiIcons.AiOutlineClose onClick={openNav}/>
-          </a>
-        
-        <h2>Navegar</h2>
-        {
-          DataNav.map(({name, to}) => (
-            <div className={styles.divData}>
-            <ul>
-            <a href={to}
-            onClick={openNav}
-            className={styles.articleNav}
-            >
-              <p>{name}</p> 
-            </a>
-            </ul>
-            </div>
-            ))
-          }
-      </section>
-        </nav>
-      </div> */
