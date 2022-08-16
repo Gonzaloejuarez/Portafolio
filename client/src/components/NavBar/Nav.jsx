@@ -12,7 +12,6 @@ export const Nav = () => {
 
   return (
     <div className={styles.divNav}>
-      <div className='data'>
       <h1>Gonzalo Juarez</h1>
       <ul className={open ? "lista active" : "lista"}>
         {
@@ -25,7 +24,6 @@ export const Nav = () => {
           ))
         }
         </ul>
-      </div>
       <div className={styles.menu} onClick={openNav}>
         {open ? (
           <FaTimes size={20} className='button'/>

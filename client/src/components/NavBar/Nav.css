@@ -1,13 +1,4 @@
-.data{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    position: solid;
-    width: 100%;
-    height: 90px;
-    z-index: 10;
-}
+
 .lista{
     display: flex;
 }
@@ -32,13 +23,13 @@
     .lista {
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
+        justify-content: center;
         align-items: center;
         width: 100%;
         height: 100vh;
         position :fixed;
         background-color: #1E1919;
-        top: 122px;
+        top: 0;
         right: 0px;
         right: -100%;
         z-index: -3;

@@ -1,10 +1,17 @@
 .nuevo{
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.divComponenteInicio{
+    margin-top: 5rem;
+}
 .divGonzalo{
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
 }
 
 .gonzaloImagen{

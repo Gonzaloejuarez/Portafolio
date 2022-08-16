@@ -5,11 +5,11 @@ import gonzalo from '../../img/GonzaloJuarez.jpeg'
 export const Gonzalo = () => {
   return (
     <div className={styles.nuevo}>
-        <h1>
+      <div className={styles.divComponenteInicio}>
+      <h1>
           Bienvenidos
         </h1>
-      <div className={styles.divGonzalo}>
-        <div>
+        <div className={styles.divGonzalo}>
         <p>
           Bienvenidos a mi Portafolio<br />
           Tecnico Informatico && Desarrollador Full Stack
