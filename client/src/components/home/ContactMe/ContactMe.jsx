@@ -30,7 +30,7 @@ export const ContactMe = () => {
 							<TbBrandGmail size={20} style={{color : "#000", marginRight : "2rem"}} />
 							<div >
 								<p style={{color: "#000"}} className={styles.parrafo}>
-									<a href="" style={{color: "#000", textDecoration:"none"}}>juarezgonzalo000@gmail.com</a>
+									<a href="https://mail.google.com/a/?view=cm&fs=1&to=juarezgonzalo000@gmail.com" target="_BLANK" style={{color: "#000", textDecoration:"none"}}>juarezgonzalo000@gmail.com</a>
 								</p>
 							</div>
 						</div>
@@ -41,16 +41,16 @@ export const ContactMe = () => {
 							Portfolio diseñado y desarrollado por el Desarrollador Full Stack Gonzalo Juarez.
 						</p>
 						<div className={styles.redesSociales}>
-                        <a href="" style={{color:"#000"}}>
+                        <a href="https://www.linkedin.com/in/gonzalo-juarez-o2/" target="_BLANK" style={{color:"#0961b8"}}>
                         <FaLinkedin size={30}></FaLinkedin>
                         </a>
-                        <a href="" style={{color:"#000"}}>
+                        <a href="https://github.com/Gonzaloejuarez" target="_BLANK" style={{color:"#000"}}>
                         <FaGithub size={30} />
                         </a>
-                        <a href="" style={{color:"#000"}}>
+                        <a href="https://www.instagram.com/gonzaloejuarez/" target="_BLANK" style={{color:"#ec4965"}}>
                         <FaInstagram size={30} />
                         </a>
-                        <a href="" style={{color:"#000"}}>
+                        <a href="https://twitter.com/Gonzaajua" target="_BLANK" style={{color:"#1d9bf0"}}>
                         <FaTwitter size={30} />
                         </a>
 						</div>
