@@ -15,9 +15,9 @@ export const Home = () => {
 			<section id='inicio'  className='divGonzalo'>
 			<Gonzalo />
 			</section>
-			<section id='contactame'>
+			<div>
 			<Formulario />
-			</section>
+			</div>
 			<section className={styles.sectionContact}>
 			<ContactMe />
 			</section>

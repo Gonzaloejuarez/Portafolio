@@ -11,7 +11,7 @@ export const Nav = () => {
   const openNav = () => setOpen(!open)
 
   return (
-    <div className={styles.divNav}>
+    <footer className={styles.divNav}>
       <h1>Gonzalo Juarez</h1>
       <ul className={open ? "lista active" : "lista"}>
         {
@@ -32,7 +32,7 @@ export const Nav = () => {
             )
         }
       </div>
-    </div>
+    </footer>
   )
 }
 export default Nav
