@@ -4,7 +4,6 @@ import Nav from '../../NavBar/Nav'
 export const Projects = () => {
   return (
     <div>
-      <Nav />
       <p>Proyectos</p>
       </div>
   )
