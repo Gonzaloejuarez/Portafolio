@@ -23,7 +23,7 @@ return(
     <section id="contactame" className={styles.sectionForm}>
             <div className={styles.divFormulario}>
             </div>
-                <h1 style={{display:"flex", justifyContent:"center" , alignItems:"center"}}>
+                <h1 className={styles.divH}>
                     Contactame
                 </h1>
                 <form action="" ref={form} onSubmit={sendEmail} className={styles.formulario}>

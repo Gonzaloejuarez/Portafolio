@@ -8,6 +8,10 @@ export const DataNav = [
       to: "#sobreMi"  
     },
     {
+      name:"Habilidades",
+      to:"#habilidades"
+    },
+    {
       name : "Proyectos",
       to: "#proyectos"
     },

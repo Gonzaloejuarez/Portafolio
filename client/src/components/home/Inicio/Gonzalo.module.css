@@ -105,11 +105,13 @@ width: 22rem;
         display: flex;
         flex-direction: column;
         width: 100%;
+        min-height: 25vh;
     }
     .divComponenteInicio{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 5rem;
     }
     .redesSociales{
         margin-top: 2rem;

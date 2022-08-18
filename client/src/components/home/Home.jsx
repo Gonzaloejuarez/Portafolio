@@ -16,10 +16,12 @@ export const Home = () => {
 			<section id='inicio'>
 			<Inicio />
 			</section>
-			<div>
+			<section id='sobreMi'>
 			<AboutMe />
+			</section>
+			<section id='contactame'>
 			<Contactame />
-			</div>
+			</section>
 			<section className={styles.sectionContact}>
 			<Footer />
 			</section>

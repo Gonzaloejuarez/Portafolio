@@ -1,22 +1,41 @@
 import React from 'react'
 import styles from '../../style/AboutMe.module.css';
-
+import imagen from '../../img/971.jpg'
 export const AboutMe = () => {
   return (
     <section id='sobreMi' className={styles.divAbout}>
-        <div>
+        <div className={styles.div2Ab}>
+        </div>
+        <div className={styles.divH}>
            <h1>Sobre Mi</h1>
         </div>
+        <div className={styles.pregridAbout}>
         <div className={styles.gridAbout}>
-            <div className='left' style={{background:"red"}}>
+            <div className={styles.left}>
                 <h2 style={{color:"white"}}>
-                Me llamo Gonzalo Juarez, Soy tecnico informatico y desarrollador Full Stack. <br />
+                Me llamo Gonzalo Juarez, soy tecnico informatico y desarrollador Full Stack. <br />
                 Tengo 20 años y estoy cursando el primer año de la tecnicatura universitaria en programacion <br /> en la universidad Nacional de Hurlingham
                 </h2>
             </div>
-            <div className='right' style={{background:"blue"}}>
+            <div className='right'>
+                <div className={styles.divImg}>
+                    <img src={imagen}  />
+                </div>
+            </div>
+        </div>
+        </div>
+        <div className={styles.divHabilidades}>
+        <div>
+            <h1>Mis habilidades y Tecnologias</h1>
+        </div>
+        <div className={styles.Skills}>
+            <div className='left'>
 
             </div>
+            <div className='right'>
+
+            </div>
+        </div>
         </div>
     </section>
   )
