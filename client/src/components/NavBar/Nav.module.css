@@ -24,7 +24,8 @@
     font-weight: 500;
 }
 .listas a > p:hover{
-color: #F9E63D;
+    color:#5B42F3;
+    transition: .3s;
 }
 
 

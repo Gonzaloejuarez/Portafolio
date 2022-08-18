@@ -43,7 +43,7 @@ return(
                     </div><span>Enviar</span>
                     </button>
                     </div>
-                    <span>{done && "Gracias por contactarte conmigo"}</span>
+                    {/* <span>{done && "Gracias por contactarte conmigo"}</span> */}
                 </form>
     </section>
 )
