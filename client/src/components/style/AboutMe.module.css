@@ -1,0 +1,12 @@
+.divAbout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 20vh;
+}
+
+.gridAbout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

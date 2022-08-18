@@ -1,9 +1,10 @@
 import React from 'react';
 import styles from './Home.module.css'
-import Gonzalo from './Gonzalo/Gonzalo';
+import Inicio from './Inicio/Inicio';
 import Nav from '../NavBar/Nav';
-import ContactMe from './ContactMe/ContactMe';
-import Formulario from './Formulario';
+import Footer from './Footer/Footer';
+import Contactame from './ContactMe/Contactame';
+import { AboutMe } from './AboutMe/AboutMe';
 
 
 export const Home = () => {
@@ -12,14 +13,15 @@ export const Home = () => {
 		<div>
 			<Nav />
 			<div>
-			<section id='inicio'  className='divGonzalo'>
-			<Gonzalo />
+			<section id='inicio'>
+			<Inicio />
 			</section>
 			<div>
-			<Formulario />
+			<AboutMe />
+			<Contactame />
 			</div>
 			<section className={styles.sectionContact}>
-			<ContactMe />
+			<Footer />
 			</section>
 			</div>
 		</div>
