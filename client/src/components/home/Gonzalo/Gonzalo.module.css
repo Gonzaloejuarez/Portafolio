@@ -5,16 +5,36 @@
 
 }
 .divComponenteInicio{
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 .divGonzalo{
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     margin-top: 3rem;
 }
 
-.gonzaloImagen{
-    width: 200px;
-    height: 250px;
+.imagen{
+    margin-left: 2rem;
+}
+.imagen > img{
+    /* -webkit-transform: scale(1); */
+    clip-path: circle(50% at 50% 50%);
+    width: 260px;
+    height: 260px;
+}
+.preAbout{
+width: 22rem;;
+}
+
+.button{
+   margin-top: 2rem; 
+}
+
+
+@media (max-width : 640px){
+    .divGonzalo{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
 }

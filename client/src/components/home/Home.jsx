@@ -3,6 +3,7 @@ import styles from './Home.module.css'
 import Gonzalo from './Gonzalo/Gonzalo';
 import Nav from '../NavBar/Nav';
 import ContactMe from './ContactMe/ContactMe';
+import Formulario from './Formulario';
 
 
 export const Home = () => {
@@ -14,8 +15,11 @@ export const Home = () => {
 			<section id='inicio'  className='divGonzalo'>
 			<Gonzalo />
 			</section>
-			<section id='contactame' className={styles.sectionContact}>
-				<ContactMe />
+			<section id='contactame'>
+			<Formulario />
+			</section>
+			<section className={styles.sectionContact}>
+			<ContactMe />
 			</section>
 			</div>
 		</div>

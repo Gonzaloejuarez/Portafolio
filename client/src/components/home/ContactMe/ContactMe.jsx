@@ -55,7 +55,7 @@ export const ContactMe = () => {
                         </a>
 						</div>
 					</div>
-				</div>
+	</div>
   )
 }
 

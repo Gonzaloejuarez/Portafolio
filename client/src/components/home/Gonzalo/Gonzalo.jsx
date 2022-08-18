@@ -6,21 +6,22 @@ export const Gonzalo = () => {
   return (
     <div className={styles.nuevo}>
       <div className={styles.divComponenteInicio}>
-      <h1>
-          Bienvenidos
-        </h1>
-        <div className={styles.divGonzalo}>
-        <p>
-          Bienvenidos a mi Portafolio<br />
-          Tecnico Informatico && Desarrollador Full Stack
-        </p>
-        <p>
-          Soy una persona responsable, atenta y autodidacta
-        </p>
+        <div style={{display:"flex", justifyContent:"center"}}>
+          <h2 style={{color:"#fff"}}>Bienvenidos a mi Portafolio</h2>
         </div>
-      <div>
-      <img className={styles.gonzaloImagen} src={gonzalo}alt="imagen Gonzalo" />
+        <div className={styles.divGonzalo}>
+      <div className={styles.imagen}>
+      <img src={gonzalo}alt="imagen Gonzalo" />
       </div>
+      <div className={styles.preAbout}>
+      <h1 size={30}>
+          Desarrollador Full Stack && Tecnico informatico
+      </h1>
+      <div className={styles.button}>
+      <a href="#contactame" className={styles.article}>Contactame</a>
+      </div>
+      </div>
+        </div>
       </div>
     </div>
   )
