@@ -32,6 +32,9 @@
 .menu{
     display: none;
 }
+.parrafo{
+    font-size: 1rem;
+}
 
 @media(max-width : 1040px) {
     .lista {
@@ -57,6 +60,13 @@
     }
     .menu{
         display: initial;
+    }
+    
+}
+
+@media(max-width:600px){
+    .parrafo{
+        font-size: 2rem;
     }
 }
 

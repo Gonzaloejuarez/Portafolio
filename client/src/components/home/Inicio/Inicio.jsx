@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Gonzalo.module.css'
+import styles from '../../style/Inicio.module.css'
 import gonzalo from '../../img/GonzaloJuarez.jpeg';
 import {FaLinkedin, FaGithub, FaInstagram, FaTwitter } from 'react-icons/fa'
 export const Inicio = () => {

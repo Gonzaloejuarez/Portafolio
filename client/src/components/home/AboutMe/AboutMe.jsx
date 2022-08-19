@@ -19,21 +19,8 @@ export const AboutMe = () => {
             </div>
             <div className='right'>
                 <div className={styles.divImg}>
-                    <img src={imagen}  />
+                    <img src={imagen} alt="imagenPc"/>
                 </div>
-            </div>
-        </div>
-        </div>
-        <div className={styles.divHabilidades}>
-        <div>
-            <h1>Mis habilidades y Tecnologias</h1>
-        </div>
-        <div className={styles.Skills}>
-            <div className='left'>
-
-            </div>
-            <div className='right'>
-
             </div>
         </div>
         </div>

@@ -5,6 +5,7 @@ import Nav from '../NavBar/Nav';
 import Footer from './Footer/Footer';
 import Contactame from './ContactMe/Contactame';
 import { AboutMe } from './AboutMe/AboutMe';
+import { Skills } from './Habilidades/Skills';
 
 
 export const Home = () => {
@@ -18,6 +19,9 @@ export const Home = () => {
 			</section>
 			<section id='sobreMi'>
 			<AboutMe />
+			</section>
+			<section id='habilidades'>
+			<Skills />
 			</section>
 			<section id='contactame'>
 			<Contactame />

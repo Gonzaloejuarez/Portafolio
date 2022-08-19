@@ -1,6 +1,6 @@
 import React, {useState,useRef} from "react";
 import emailjs from '@emailjs/browser';
-import styles from './Formulario.module.css'
+import styles from '../../style/ContactMe.module.css'
 
 export const Contactame = () => {
     const[done, setDone] = useState(false)

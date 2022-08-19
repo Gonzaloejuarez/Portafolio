@@ -18,16 +18,12 @@
 .divH > h1{
     font-size: 2rem;
 }
-.pregridAbout{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .gridAbout{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
+    gap: 2rem;
     padding: 4rem 6rem;
     margin-top: -2rem;
 }
@@ -55,6 +51,7 @@
     .gridAbout{
         grid-template-columns: 1fr;
         width: 100%;
+        justify-content: center;
     }
     .left >h2 {
         font-size: 20px;
