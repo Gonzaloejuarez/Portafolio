@@ -1,0 +1,12 @@
+.divGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    
+}
+
+.card{
+    padding: 18px 10px;
+    background-color: rgb(87, 87, 127);
+    width: 20rem;
+}

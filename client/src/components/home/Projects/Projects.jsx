@@ -1,10 +1,14 @@
 import React from 'react'
-import Nav from '../../NavBar/Nav'
+import Slide from './Slides/Slides'
+import style from '../../style/Projects.module.css'
 
 export const Projects = () => {
   return (
     <div>
-      <p>Proyectos</p>
+      <h1>Proyectos</h1>
+      <div>
+      <Slide />
+      </div>
       </div>
   )
 }
