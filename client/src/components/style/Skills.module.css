@@ -1,3 +1,6 @@
+.laBase{
+    min-height: 10rem;
+}
 .sectionSkill{
     width: 100%;
     height: 100%;
@@ -44,11 +47,14 @@
 }
 
 @media(max-width:600px){
+    .laBase{
+        margin-top: -2rem;
+    }
     .gridSkill{
-        display: grid;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         gap: 2rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
         padding: 4rem 1.5rem;
         align-items: center;
     }

@@ -6,20 +6,16 @@ import River5 from '../../../img/River5.jpg';
 import River6 from '../../../img/Argentina.png';
 import River7 from '../../../img/Argentina2.jpg';
 
+
+import style from '../../../style/Projects.module.css'
+
 export const SlideData= [
     {
         name: "WallEt App",
         img : River1,
         info:"Aplicacion la cual tendra como manera principal enviar dinero y guardar tu dinero en tu billetera",
         status:"Completed",
-        gitHub:""
-    },
-    {
-        name:"Videogames app",
-        img: River2,
-        info:"Aplicacion la cual podras ver los juegos mas famosos y menos famosos",
-        gitHub:"",
-        status:"Completed",
+        gitHub:"WallEt"
     },
     {
         name:"Movies App",
@@ -29,31 +25,12 @@ export const SlideData= [
         gitHub:""
     },
     {
-        name:"Portfolio",
-        img: River4,
-        info:"Mi portafolio",
-        status:"Completed",
-        gitHub:""
-    },
-    {
-        name:"TodoApp",
+        name:"Todo App",
         img : River5,
-        info:"Aplicacion la cual podras loguearte y tener tu propias tareas",
+        info:"Aplicacion la cual podras loguearte y crear tus propias tareas eliminarlas o editarlas",
         status:"Completed",
-        gitHub:""
-    },
-    {
-        name:"NextClima",
-        img : River6,
-        info:"",
-        status:"Proximamente",
-        gitHub:""
-    },
-    {
-        name:"E-commerce",
-        img : River7,
-        status:"Proximamente",
-        info:"",
         gitHub:""
     }
 ]
+
+

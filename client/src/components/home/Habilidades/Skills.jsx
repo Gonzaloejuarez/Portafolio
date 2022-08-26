@@ -7,7 +7,7 @@ import {SiRedux, SiMaterialui, SiPostgresql, SiMongodb} from 'react-icons/si'
 export const Skills = () => {
   return (
     <section className={style.sectionSkill}>
-      <div className={style.laBase}style={{minHeight:"20vh"}}>
+      <div className={style.laBase} >
       </div>
         <h1 style={{display:"flex", justifyContent:"center", alignItems:"center", fontSize:"2rem"}}>Habilidades</h1>
         <h2 style={{color:"#4522F0" ,display:"flex", justifyContent:"center", alignItems:"center", marginTop:"2rem"}}>

@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './Home.module.css'
-import Inicio from './Inicio/Inicio';
-import Nav from '../NavBar/Nav';
+import Cover from '../Fondo/Cover';
 import Projects from './Projects/Projects';
 import Footer from './Footer/Footer';
 import Contactame from './ContactMe/Contactame';
@@ -13,11 +12,8 @@ export const Home = () => {
 
 	return(
 		<div>
-			<Nav />
+			<Cover />
 			<div>
-			<section id='inicio'>
-			<Inicio />
-			</section>
 			<section id='sobreMi'>
 			<AboutMe />
 			</section>
