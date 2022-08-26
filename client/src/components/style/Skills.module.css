@@ -1,9 +1,14 @@
 .laBase{
     min-height: 10rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 .sectionSkill{
     width: 100%;
     height: 100%;
+    padding: 4rem 1rem;
 }
 .gridSkill{
     display: grid;

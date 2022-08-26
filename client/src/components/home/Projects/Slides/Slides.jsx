@@ -3,7 +3,7 @@ import style from '../../../style/Projects.module.css';
 export const Slide = () => {
  
 return(
-<div>
+<div style={{padding: '4rem 1rem'}}>
 <div className={style.divCard}>
 {
     SlideData.map((data) => (

@@ -3,14 +3,15 @@
     align-items: center;
     justify-content: center;
     min-height: 25vh;
+    
 }
-
 .formulario{
     display: flex;
     flex-direction: column;
     padding: 4rem 1rem;
     margin: auto;
     max-width: 600px;
+    
 }
 .divH{
     display: flex;

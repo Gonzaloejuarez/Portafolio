@@ -8,10 +8,6 @@ function App() {
   return (
     <div className="App">
       <Home />
-        {/* <Routes>
-          <Route exact path='/' element={<Home />}/>
-          <Route exact path='segunda' element={<Cover />} />
-        </Routes> */}
     </div>
   );
 }

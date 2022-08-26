@@ -6,6 +6,7 @@ import Footer from './Footer/Footer';
 import Contactame from './ContactMe/Contactame';
 import { AboutMe } from './AboutMe/AboutMe';
 import { Skills } from './Habilidades/Skills';
+import { Estudio } from './Estudio/Estudio';
 
 
 export const Home = () => {
@@ -22,6 +23,9 @@ export const Home = () => {
 			</section>
 			<section id='proyectos'>
 			<Projects />
+			</section>
+			<section id='estudio'>
+				<Estudio />
 			</section>
 			<section id='contactame'>
 			<Contactame />
