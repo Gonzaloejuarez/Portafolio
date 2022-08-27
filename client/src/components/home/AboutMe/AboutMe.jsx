@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 import styles from '../../style/AboutMe.module.css';
 import gonzalo from '../../img/GonzaloJuarez.jpeg';
+import { RedesSociales } from '../Footer/RedesSociales';
 
 
 export const AboutMe = () => {

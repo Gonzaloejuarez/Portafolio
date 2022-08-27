@@ -1,5 +1,5 @@
 .laBase{
-    min-height: 10rem;
+    min-height: 5rem;
     margin: auto;
     display: flex;
     align-items: center;
@@ -54,12 +54,12 @@
 @media(max-width:600px){
     .laBase{
         margin-top: -2rem;
+        min-height: 20rem;
     }
     .gridSkill{
         display: flex;
         flex-direction: column;
         gap: 2rem;
-        margin-top: 1rem;
         padding: 4rem 1.5rem;
         align-items: center;
     }

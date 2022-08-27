@@ -15,8 +15,10 @@
 
 
 body {
-    background-color: #151313;
+    background-color: #19171b;
     /* background-color: #fff; */
+    overflow-y: auto;
+    overflow-x: hidden;
   }
   
   code {

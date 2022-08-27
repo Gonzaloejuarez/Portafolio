@@ -35,12 +35,17 @@
     margin-top: -2rem;
 }
 
+.redesSociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* .divImg{
     display: flex;
     justify-content: center;
     align-items: center;
 } */
-.divImg {
+.divImg{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -65,9 +70,6 @@
     }
     .left >h2 {
         font-size: 20px;
-    }
-    .divImg{
-        margin-top: 2rem;
     }
     .divImg > img{
         width: 300px;

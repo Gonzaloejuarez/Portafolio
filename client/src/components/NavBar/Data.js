@@ -1,8 +1,4 @@
 export const DataNav = [
-   /*  {
-      name : "Inicio",
-      to: "#inicio"  
-    }, */
     {
       name : "Sobre Mi",
       to: "#sobreMi"  
@@ -14,10 +10,6 @@ export const DataNav = [
     {
       name : "Proyectos",
       to: "#proyectos"
-    },
-    {
-      name : "Estudios",
-      to: "#estudios"
     },
     {
       name : "Contactame",

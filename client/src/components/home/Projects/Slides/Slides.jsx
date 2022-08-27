@@ -15,7 +15,7 @@ return(
                 </div>
                 <div className={style.preCard}>
                     <p className={style.btc}>{data.status}</p>
-                    <a href={data.gitHub} className={style.btn}>{data.name}</a>
+                    <a target="_BLANK" href={data.gitHub} className={style.btn}>{data.name}</a>
                 </div>   
         </div>
     ))

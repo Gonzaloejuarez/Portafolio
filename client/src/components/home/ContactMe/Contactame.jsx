@@ -1,7 +1,7 @@
 import React, {useState,useRef} from "react";
 import emailjs from '@emailjs/browser';
 import styles from '../../style/ContactMe.module.css'
-
+import { RedesSociales } from "../Footer/RedesSociales";
 export const Contactame = () => {
     const[done, setDone] = useState(false)
     const form = useRef();
@@ -45,6 +45,9 @@ return(
                     </div>
                     {/* <span>{done && "Gracias por contactarte conmigo"}</span> */}
                 </form>
+                {/* <div className={styles.redesSociales}>
+                <RedesSociales />
+                </div> */}
     </section>
 )
 }

@@ -15,28 +15,28 @@ export const SlideData= [
         img : Wallet,
         info:"Aplicacion la cual tendra como manera principal enviar dinero y guardar tu dinero en tu billetera",
         status:"Completado",
-        gitHub:"WallEt"
+        gitHub:"https://github.com/Gonzaloejuarez/Wall-et"
     },
     {
         name:"Movies App",
         img : Movies,
         info:"Aplicacion la cual podras buscar tus peliculas favoritas o peliculas que quieras ver",
         status:"Completado",
-        gitHub:""
+        gitHub:"https://github.com/Gonzaloejuarez/Movies-App"
     },
     {
         name:"TodoApp",
         img : TodoApp,
         info:"Aplicacion la cual podras loguearte y hacer tus propias tareas, editarlas o eliminarlas",
         status:"Completado",
-        gitHub:""
+        gitHub:"https://github.com/Gonzaloejuarez/TodoAppMongoDB_JWT"
     },
     {
         name:"VideoGames",
         img : VideoGames,
         info:"Aplicacion la cual podras buscar los videojuegos mas famosos o los menos reconocidos",
         status:"Completado",
-        gitHub:""
+        gitHub:"https://github.com/Gonzaloejuarez/Videogames"
     },
     {
         name:"E-commerce",
