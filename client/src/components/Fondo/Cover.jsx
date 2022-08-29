@@ -12,7 +12,7 @@ export const Cover = () => {
                 Gonzalo E Juarez
             </h1>
             <h3>
-                Desarrollador Full Stack y tecnico informatico
+                Desarrollador Full Stack
             </h3>
         </div>
     )

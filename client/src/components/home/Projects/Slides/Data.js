@@ -10,7 +10,7 @@ export const SlideData= [
     {
         name: "WallEt App",
         img : Wallet,
-        info:"Aplicacion la cual tendra como manera principal enviar dinero y guardar tu dinero en tu billetera",
+        info:"Wallet es una billetera virtual",
         status:"Completado",
         gitHub:"https://github.com/Gonzaloejuarez/Wall-et",
         deploy : "https://github.com/Gonzaloejuarez/Wall-et"
@@ -18,23 +18,23 @@ export const SlideData= [
     {
         name:"Movies App",
         img : Movies,
-        info:"Aplicacion la cual podras buscar tus peliculas favoritas o peliculas que quieras ver",
+        info:"Movies es una aplicacion para buscar y guardar peliculas",
         status:"Completado",
         gitHub:"https://github.com/Gonzaloejuarez/Movies-App",
         deploy : ""
     },
     {
-        name:"TodoApp",
+        name:"MisTareas",
         img : TodoApp,
-        info:"Aplicacion la cual podras loguearte y hacer tus propias tareas, editarlas o eliminarlas",
+        info:"En MisTareas podras generar tu lista de tareas",
         status:"Completado",
-        gitHub:"https://github.com/Gonzaloejuarez/TodoAppMongoDB_JWT",
+        gitHub:"https://github.com/Gonzaloejuarez/MisTareas",
         deploy : ""
     },
     {
         name:"VideoGames",
         img : VideoGames,
-        info:"Aplicacion la cual podras buscar los videojuegos mas famosos o los menos reconocidos",
+        info:"Podras buscar y ver la info de tus juegos favoritos",
         status:"Completado",
         gitHub:"https://github.com/Gonzaloejuarez/Videogames",
         deploy : ""
@@ -42,16 +42,16 @@ export const SlideData= [
     {
         name:"E-commerce",
         img : Eccommerce,
-        status:"Proximamente",
-        info:"Aplicacion la cual podras loguearte y ver los productos disponibles y podras agregarlo al carrito de compras",
+        status:"En proceso",
+        info:"E-commerce",
         gitHub:"",
         deploy : ""
     },
     {
         name:"Netflix",
         img : Netflix,
-        status:"Proximamente",
-        info:"El proposito de esta apliacion es poder imitar a la plataforma de entretenimiento",
+        status:"En proceso",
+        info:"Imitasion de la plataforma Netflix",
         gitHub:"",
         deploy : ""
     }

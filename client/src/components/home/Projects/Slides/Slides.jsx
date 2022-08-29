@@ -20,12 +20,15 @@ return(
     <MdChevronLeft className="arrow left" onClick={prevButton}/>
     <div id="slider">
         {
-            SlideData.map(({name, img, deploy, status, gitHub }) => (
+            SlideData.map(({name, img, deploy, status, gitHub, info }) => (
                 <div className="slider-card">
                     <div className="slider-card-image">
                         <img src={img} alt="" style={{width:"100%", height:"100%"}} />
                     </div>
+                    <div className="slider-card-title">
                     <h1 className='slider-title'>{name}</h1>
+                    <p className="slider-card-title-parrafo">{info}</p>
+                    </div>
                     <div className="slider-buttons">
                         <p className='status'>
                             {status}

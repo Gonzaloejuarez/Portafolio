@@ -57,6 +57,10 @@
 
 
 @media(max-width:600px){
+    .divAbout{
+        width: 90%;
+        height: 40rem;
+    }
     .div2Ab{
         display: flex;
         align-items: center;
