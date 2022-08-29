@@ -1,6 +1,5 @@
 import React,{useState, useEffect} from 'react';
 import {FaTimes, FaBars} from 'react-icons/fa';
-import { RedesSociales } from './home/Footer/RedesSociales';
 import './Navbar.css';
 import { DataNav } from './NavBar/Data';
 
@@ -42,9 +41,9 @@ useEffect(() => {
                             
                 ))
             }
-            <li className='lista-redes'>
+           {/*  <li className='lista-redes'>
             <RedesSociales className='active' />
-            </li>
+            </li> */}
         </ul>
         <div className='menu' onClick={handleClose}>
         {open ? (

@@ -1,7 +1,7 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import styles from '../../style/AboutMe.module.css';
-import gonzalo from '../../img/GonzaloJuarez.jpeg';
-import { RedesSociales } from '../Footer/RedesSociales';
+import imagenComputadora from '../../img/971.jpg'
+
 
 
 export const AboutMe = () => {
@@ -17,14 +17,14 @@ export const AboutMe = () => {
         <div className={styles.gridAbout}>
             <div className={styles.left}>
                 <h2 style={{color:"white"}}>
-                Soy tecnico informatico y desarrollador Full Stack. <br />
+                Soy tecnico informatico y <p  style={{color:"#3BC2D3", fontSize: "25px"}}>Desarrollador Full Stack </p>
                 Tengo 20 años y estoy cursando el primer año de la tecnicatura universitaria en programacion en la universidad Nacional de Hurlingham.<br /> 
                 Me considero una persona autodidacta y responsable. Tengo muchas ganas de crecer profesionalmente y personalmente y siempre seguir aprendiendo 
                 </h2>
             </div>
             <div className='container'>
                 <div className={styles.divImg}>
-                <img src={gonzalo} alt="imagen" className={styles.divImg} />
+                <img src={imagenComputadora} alt="imagen" className={styles.divImg} />
                 </div>
             </div>
         </div>

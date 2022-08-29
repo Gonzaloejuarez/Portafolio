@@ -26,6 +26,7 @@
     gap: 2rem;
     padding: 4rem 6rem;
     margin-top: -2rem;
+    margin: 15px 0px 5px 10px;
 }
 
 .left{
@@ -70,6 +71,7 @@
     }
     .left >h2 {
         font-size: 20px;
+        width: 70%;
     }
     .divImg > img{
         width: 300px;
