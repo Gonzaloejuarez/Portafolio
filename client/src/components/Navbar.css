@@ -132,3 +132,26 @@
         font-size: 3rem;
     }
 }
+
+@media(max-width:368px){
+    .navbar-name{
+        height: 80px;
+        color: white;
+        cursor: pointer;
+        line-height: 80px;
+        font-size: 15px;
+    }
+    .lista{
+        height: 100%;
+    }
+    .parrafo{
+        font-size: 2rem;
+    }
+    .lista > li {
+        padding: 1rem 0;
+    }
+
+    .lista > li > a{
+        font-size: 3rem;
+    }
+}

@@ -9,10 +9,12 @@ export const Skills = () => {
     <section className={style.sectionSkill}>
       <div className={style.laBase} >
       </div>
+      <div className={style.primera}>
         <h1 style={{display:"flex", justifyContent:"center", alignItems:"center", fontSize:"2rem"}}>Habilidades</h1>
         <h2 style={{color:"#4522F0" ,display:"flex", justifyContent:"center", alignItems:"center", marginTop:"2rem"}}>
           Habilidades tecnicas
         </h2>
+      </div>
         <div>
         <div className={style.gridSkill}>
             <div className={style.left}>

@@ -22,7 +22,7 @@ export const AboutMe = () => {
                 Me considero una persona autodidacta y responsable. Tengo muchas ganas de crecer profesionalmente y personalmente y siempre seguir aprendiendo 
                 </h2>
             </div>
-            <div className='container'>
+            <div className={styles.container}>
                 <div className={styles.divImg}>
                 <img src={imagenComputadora} alt="imagen" className={styles.divImg} />
                 </div>
