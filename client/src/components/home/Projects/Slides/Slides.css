@@ -226,4 +226,16 @@
         height: 40px;
         border-radius: 10px;
      }
+     .codigo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+        background-color: wheat;
+        border-radius: 10px;
+        width: 40%;
+        height: 40px;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
 }
