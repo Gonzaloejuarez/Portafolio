@@ -160,7 +160,7 @@
     background-color: gray;
 }
 
-@media(max-width:460px){
+@media(max-width:568px){
     .slider-card{
         display: inline-block;
         background-color: aliceblue;
@@ -180,30 +180,16 @@
         border-radius: 20px;
     }
     .arrow.left, .arrow.right{
-        background-color: white;
-        border-radius: 100%;
-        position: absolute;
-        opacity: 0.2;
-        
-        box-shadow: 2px 2px 2px 2px rgb(0 0 0 , 12%);
-        cursor: pointer;
-        font-size: 40px;
-        transition: 0.3s ease;
+       display: none;
     }
-    
-    .arrow.left:hover, .arrow.right:hover{
-        opacity: 1;
-        transition: 0.3s ease;
-    }
-    
-    .left{
-        left:3rem;
-        /* z-index: 10; */
-        user-select: none;
-    }
-    .right{
-        right: 3rem;
-        /* z-index: 10; */
-        user-select: none;
-    }
+    .status{
+        color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(12, 21, 189); 
+        width: 30%;
+        height: 40px;
+        border-radius: 10px;
+     }
 }

@@ -51,21 +51,27 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:768px){
     .laBase{
         margin-top: -2rem;
         min-height: 20rem;
     }
     .gridSkill{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
         gap: 2rem;
         padding: 4rem 1.5rem;
-        align-items: center;
+        width: 30rem;
     }
     .sectionSkill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100%;
         margin-top: 15rem;
+        flex-direction: column;
     }
     .left,
     .right{
@@ -77,5 +83,32 @@
     }
     .laBase{
         min-height: 20vh;
+    }
+}
+
+@media(max-width:468px){
+    .laBase{
+        min-height: 25vh;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .gridSkill{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 1.5rem;
+        width: 20rem;
+    }
+    .left,
+    .right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
     }
 }
