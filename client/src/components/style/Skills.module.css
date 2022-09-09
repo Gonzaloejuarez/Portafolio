@@ -25,9 +25,7 @@
     border: 1px solid transparent;
 }
 
-.gridSkill > div:hover{
-    background-color: #0C2387 ;
-}
+ 
 
 .gridSkill > div h3{
     text-align: center;
@@ -49,6 +47,7 @@
         margin-top: 2rem;
         padding: 10px 18px;
     }
+    
 }
 
 @media(max-width:768px){
@@ -84,6 +83,7 @@
     .laBase{
         min-height: 20vh;
     }
+    
 }
 
 @media(max-width:468px){
@@ -114,14 +114,14 @@
 }
 
 
-@media(max-width:368px){
+@media(max-width:375px){
     .primera{
         display: flex;
         /* width: 20px; */
         flex-direction: column;
     }
     .laBase{
-        min-height: 25vh;
+        min-height: 15vh;
         margin: auto;
         display: flex;
         align-items: center;

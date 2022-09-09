@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../style/AboutMe.module.css';
-import imagenComputadora from '../../img/971.jpg'
+import imagenComputadora from '../../img/GonzaloJuarez.jpeg'
 
 
 
@@ -19,7 +19,12 @@ export const AboutMe = () => {
                 <h2 style={{color:"white"}}>
                 Soy tecnico informatico y <p  style={{color:"#3BC2D3", fontSize: "25px"}}>Desarrollador Full Stack </p>
                 Tengo 20 años y estoy cursando el primer año de la tecnicatura universitaria en programacion en la universidad Nacional de Hurlingham.<br /> 
-                Me considero una persona autodidacta y responsable. Tengo muchas ganas de crecer profesionalmente y personalmente y siempre seguir aprendiendo 
+                <br />
+                <br />
+                Me considero una persona autodidacta y responsable. Tengo muchas ganas de crecer profesionalmente y siempre seguir aprendiendo nuevas tecnologias
+                </h2>
+                <h2>
+                  
                 </h2>
             </div>
             <div className={styles.container}>
