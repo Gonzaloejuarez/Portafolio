@@ -7,7 +7,7 @@ import {SiRedux, SiMaterialui, SiPostgresql, SiMongodb} from 'react-icons/si'
 export const Skills = () => {
   return (
     <section className={style.sectionSkill}>
-      <div className={style.laBase} >
+      <div className={style.laBase}>
       </div>
       <div className={style.primera}>
         <h1 style={{display:"flex", justifyContent:"center", alignItems:"center", fontSize:"2rem"}}>Habilidades</h1>
@@ -15,7 +15,6 @@ export const Skills = () => {
           Habilidades tecnicas
         </h2>
       </div>
-        <div>
         <div className={style.gridSkill}>
             <div className={style.left}>
                 <h3>Desarrollo Front End</h3>
@@ -126,7 +125,7 @@ export const Skills = () => {
         {/* <h2 style={{color:"#4522F0" ,display:"flex", justifyContent:"center", alignItems:"center", marginTop:"2rem"}}>
           Habilidades blandas
         </h2> */}
-        </div>
+
     </section>
   )
 }
