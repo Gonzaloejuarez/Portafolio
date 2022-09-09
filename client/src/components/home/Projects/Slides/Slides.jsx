@@ -30,9 +30,9 @@ return(
                     <p className="slider-card-title-parrafo">{info}</p>
                     </div>
                     <div className="slider-buttons">
-                        <p className='status'>
-                            {status}
-                        </p>
+                        <a href={deploy} target='_blank' className="deploy" >
+                            <p>Deploy</p>
+                        </a>
                         <a href={gitHub} target='_blank' className='codigo' rel='noreferrer' >
                             <FaGithub color="black"   />
                             <p className="github">Codigo</p>
