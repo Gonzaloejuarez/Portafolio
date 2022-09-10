@@ -18,7 +18,7 @@ export const AboutMe = () => {
             <div className={styles.left}>
                 <h2 style={{color:"white"}}>
                 Soy tecnico informatico y <p  style={{color:"#3BC2D3", fontSize: "25px"}}>Desarrollador Full Stack </p>
-                Tengo 20 años y estoy cursando el primer año de la tecnicatura universitaria en programacion en la universidad Nacional de Hurlingham.<br /> 
+                Tengo 20 años y estoy cursando el primer año de la tecnicatura universitaria en programacion en la universidad Nacional de Hurlingham 📍.<br /> 
                 <br />
                 <br />
                 Me considero una persona autodidacta y responsable. Tengo muchas ganas de crecer profesionalmente y siempre seguir aprendiendo nuevas tecnologias
